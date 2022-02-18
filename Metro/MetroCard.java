@@ -11,9 +11,11 @@ public class MetroCard{
   }
 
   public void deductBalance(){
-    if (this.balance >= 2.5) {
+    if (this.freeRide = true){
+    System.out.println("Enjoy your ride, Mr/Ms." + this.name);
+  }else if (this.balance >= 2.5) {
       this.balance -= 2.5;
-      System.out.println("Enjoy your ride.");
+      System.out.println("Enjoy your ride, Mr/Ms." + this.name);
       System.out.println("You have $" + this.balance + " remaining on your card.");
     } else {
       System.out.println("You don't have enough balance.");
