@@ -12,11 +12,11 @@ public class MetroCard{
     this.time = t;
   }
 
-  public void swipe(){
+  public void freeSwipe(){
   if (this.freeRide = true){
     free();
-  }else if(this.freeRide = false
-    {deductBalance();
+  } else if(this.freeRide = false) {
+    deductBalance();
   }
 }
 
